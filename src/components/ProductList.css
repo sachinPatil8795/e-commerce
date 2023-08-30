@@ -1,0 +1,37 @@
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid darkgrey;
+    margin-left: 2rem;
+  }
+  
+  /* .product-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-price {
+    font-weight: bold;
+    margin-right: 10px;
+  } */
+  
+  .delete-button {
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #d40b0b;
+  }
+  
